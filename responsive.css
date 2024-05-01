@@ -1,0 +1,321 @@
+@media screen and (max-width:1315px){
+    .main-heading {
+        margin-left:4vw;
+        font-size: 6.5rem;
+      }
+
+      .intro{
+        font-size: 0.8rem;
+        width: 45vw;
+      }
+      .allp{
+        margin-left:10vw;
+      }
+
+      .skills{
+        
+        margin-left:11vw;
+    }
+
+    .skill{
+        margin-left:9vw;
+    }
+    
+input {
+    
+  
+    width: 35%;
+    margin-left: 39vw;
+    
+  }
+
+  .hp{
+    margin-left:5vw;
+    font-size:45px;
+  }
+  
+  .form{
+    margin-left:11vw;
+  }
+
+
+
+  
+  .message{
+      
+    margin-left: 39vw;
+    
+  }
+
+  .footer{
+    margin-left:12vw;
+  }
+
+   .project1,.project3{
+  margin-left:20vw;
+  width:390px;
+} 
+
+.project2,.project4{
+    margin-left:1vw;
+    width:390px;
+}
+
+.image{
+  width:340px;
+  height:210px;
+}
+
+}
+
+
+@media screen and (max-width:1115px){
+  .main-heading {
+      margin-left:12vw;
+      font-size: 5.2rem;
+    }
+
+    .intro{
+      font-size: 0.75rem;
+      width: 55vw;
+      margin-left:12vw;
+    }
+    .allp{
+      margin-left:10vw;
+    }
+
+    .skills{
+      
+      margin-left:11vw;
+  }
+
+  .skill{
+      margin-left:9vw;
+  }
+  
+input {
+  
+
+  width: 35%;
+  margin-left: 39vw;
+  
+}
+
+.hp{
+  margin-left:12vw;
+  font-size:45px;
+}
+
+
+.message{
+    
+  margin-left: 39vw;
+  
+}
+
+.footer{
+  margin-left:12vw;
+}
+
+ .project1,.project3{
+margin-left:20vw;
+width:360px;
+} 
+
+.project2,.project4{
+  margin-left:1vw;
+  width:360px;
+}
+
+.image{
+width:330px;
+height:190px;
+}
+.icon{
+  width:50px;
+}
+}
+
+
+@media screen and (max-width:930px){
+  
+
+
+.projects-row1,.projects-row2 {
+  
+  justify-content:center;align-items:center;
+flex-wrap:wrap;
+width:100%;
+}
+
+.project1,.project3 {
+  margin-left: 12.5vw;
+  margin-bottom:4vh;
+}
+.project1,.project3,.project2,.project4{
+  
+  width:370px;
+  } 
+  
+
+  .image{
+    width:340px;
+    
+    }
+  
+  .project2,.project4{
+    margin-left:12.6vw;
+    
+  }
+}
+
+
+@media screen and (max-width:930px){
+  .main-heading {
+   
+    font-size: 4rem;
+}
+
+.intro{
+  font-size: 0.7rem;
+ 
+}
+.icon {
+  width: 43px;
+}
+
+.form,.skill{
+  font-size:45px;
+}
+.skills{
+  margin-left:16vw;
+}
+  .projects-row1,.projects-row2 {
+    
+    justify-content:center;align-items:center;
+  flex-wrap:wrap;
+  width:100%;
+  }
+  
+  .project1,.project3 {
+    margin-left: 12.5vw;
+    margin-bottom:4vh;
+  }
+  .project1,.project3,.project2,.project4{
+    
+    width:370px;
+    } 
+    
+  
+    .image{
+      width:340px;
+      
+      }
+    
+    .project2,.project4{
+      margin-left:12.6vw;
+      
+    }
+  }
+
+  @media screen and (max-width:750px){
+    .main-heading{
+      font-size:5rem;
+      margin-left:0vw;
+    }
+    .intro{
+      width:67vw;
+      margin-left:0.7vw;
+    }
+    .social-icons{
+      display:none;
+    }
+
+    .hp{
+      margin-left:8vw;
+      font-size:45px;
+    }
+    .project1,.project3 {
+      margin-left: 8.5vw;
+      margin-bottom:4vh;
+    }
+
+    .project2,.project4{
+      margin-left:8.6vw;
+      
+    }
+
+    .skills{
+      margin-left:-1vw;
+    }
+
+    input {
+  
+
+      width: 55%;
+      margin-left: 31vw;
+      
+    }
+    
+  }
+
+  @media screen and (max-width:750px){
+    .main-heading{
+      font-size:3rem;
+      margin-left:9vw;
+      
+      
+    }
+
+    .AP {
+      width: 146px;
+      
+    }
+    
+
+    .resume{
+      margin-left:-7vw;
+    }
+    .intro{
+      width:68vw;
+      margin-left:6.7vw;
+      font-size:14px;
+      margin-top:2vw;
+    }
+
+    .icon{
+       width:33px;
+    }
+    .skills{
+      margin-left:1vw;
+    }
+
+    .project1,.project3 {
+      margin-left: 6.3vw;
+      
+    }
+
+    .project2,.project4{
+      margin-left:6.4vw;
+      
+    }
+    input {
+  
+
+      width: 58%;
+      margin-left: 25vw;
+      
+    }
+    .message{
+      height:49px;
+    }
+  }
+
+/* .project1,.project3{
+  width: 410px;
+  height: 470px;} */
+ 
+  /* .image{
+    border-radius:6px;
+  } */
+  

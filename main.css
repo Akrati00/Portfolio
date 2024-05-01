@@ -1,0 +1,153 @@
+.intro {
+  position: relative;
+  top: -25px;
+  /* left: 455px; */
+  max-width: 100%;
+  width: 55vw;
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+  font-size: 0.9rem;
+  font-family: Roboto;
+  text-align: center;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+}
+
+.main-heading {
+  color: whitesmoke;
+  position: relative;
+  margin-top: -200px;
+  font-family: Jim Nightshade;
+  font-size: 7.5rem;
+}
+
+.heading {
+  text-align: center;
+  position: relative;
+}
+
+.AP {
+  width: 156px;
+  height: 37px;
+  border-radius: 8px;
+  border: 2px solid #874ccc;
+  background: #000;
+  box-shadow: 3px 3px 8px 0px rgb(249, 109, 172);
+  backdrop-filter: blur(20px);
+  color: white;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+.button .AP:hover {
+  background-color: #850b8e;
+  color: #fff;
+}
+
+.project-heading {
+  color: whitesmoke;
+  font-family: Roboto;
+  position: relative;
+  font-size: 50px;
+  margin-top: 50px;
+  text-decoration: underline 2px #3c5b6f;
+  margin-bottom: 30px;
+}
+
+.project1,.project3{
+  width: 410px;
+  height: 470px;
+ 
+  border-radius: 20px;
+  border: 1px solid #e0dede;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(217, 217, 217, 0) 100%,
+    rgba(217, 217, 217, 0.41) 100%
+  );
+  backdrop-filter: blur(25px);
+  margin-left:22vw;
+ 
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  padding: 14px;
+}
+
+.project2, .project4{
+    width: 410px;
+    height: 470px;
+    
+    border-radius: 20px;
+    border: 1px solid #e0dede;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.28) 0%,
+      rgba(217, 217, 217, 0) 100%,
+      rgba(217, 217, 217, 0.41) 100%
+    );
+    backdrop-filter: blur(25px);
+    position: relative;
+  transition: box-shadow 0.3s ease;
+  padding: 14px;
+  margin-left:2vw;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover {
+  animation: glow 1s infinite alternate;
+}
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px 1px #ffffff;
+    }
+    to {
+      box-shadow: 0 0 20px 1px #ffffff;
+    }
+  }
+
+.projects-row1,.projects-row2 {
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+ flex-wrap:nowrap;
+ width:55vw; 
+  
+
+}
+
+.project-button{
+    display:flex;
+    justify-content:center;
+    margin-top:2vw;
+}
+
+.projects-row2{
+    margin-top:4vh;
+}
+
+.image{
+  border-radius:6px;
+}
+
+.skills,.form{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+
+
+
+

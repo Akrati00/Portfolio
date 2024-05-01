@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 21 30 / var(--tw-bg-opacity));
+}
+
+.background {
+  width: 350px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 391px;
+  background: #3ce0b9;
+  filter: blur(114.25px);
+  animation: move 4s linear infinite;
+  left: 10px;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+.background2 {
+  width: 350px;
+  height: 330px;
+  flex-shrink: 0;
+  border-radius: 479px;
+  background: linear-gradient(180deg, #e50e87 0%, #220ca9 100%);
+  filter: blur(109.75px);
+  animation: animate 5s linear infinite;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(100px, 100px);
+  }
+  40% {
+    transform: translate(0, 200px);
+  }
+  60% {
+    transform: translate(100px, 300px);
+  }
+  80% {
+    transform: translate(0, 400px);
+  }
+  100% {
+    transform: translate(100px, 0);
+  }
+}
+
+.background3 {
+  width: 205px;
+  height: 205px;
+  flex-shrink: 0;
+  border-radius: 450px;
+  background: linear-gradient(180deg, #ffd647 0%, #c97e0d 100%, #ff1111 100%);
+  filter: blur(100px);
+  position: fixed;
+  top: 704px;
+  animation: animate 5s linear infinite;
+  margin-left: 661px;
+}
+
+.background4 {
+  width: 380px;
+  height: 380px;
+  border-radius: 380px;
+  background: linear-gradient(
+    180deg,
+    #fecb14 0%,
+    #c97e0d 55%,
+    #ea780f 64.6%,
+    #da2d2d 100%
+  );
+  filter: blur(94.3499984741211px);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateY(-50%);
+  animation: move 4s linear infinite;
+}
+
+.social-icons {
+  position: fixed;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  z-index: 9999;
+  color: white;
+}
+
+.social-icons a:hover {
+  color: aquamarine;
+}
+.social-icons a {
+  color: whitesmoke;
+}
+
+nav {
+  max-width: 100%;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #dfdfdf;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(217, 217, 217, 0) 100%,
+    rgba(217, 217, 217, 0.41) 100%
+  );
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+ul li a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px 9px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(55, 55, 55, 0.3);
+}
